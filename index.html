@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="css/bootstrap.min.css">
+                    <script src="js/jquery.min.js"></script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <script src="js/list.js"></script>
+                    <script srt="modal.js"></script>
+                    <link rel="stylesheet" type="text/css" href="css/list.css" />
+               
+    </head>
+    
+        <body onload="createlists()">
+            
+            
+
+        <div class="container-fluid">
+            <h3>Мои списки </h3>
+           
+        </div>
+        <div class="container-fluid"
+            id="mine">
+        <!-- mymodal-->
+        </div>
+        <div class="modal-sergey" id="modalDiv">
+            
+            <div class="content-sergey" id="modalContent">
+                <div class="modal-hd">
+                   <button  class="myclose" onclick="toggleModal()">×</button>
+                   <h4 class="sergey-title" id="sergey-head">результат</h4>
+                </div>
+                
+                <div class="sergey-body" id="sbody">
+                    
+                </div>
+                
+               <div class="modal-bottom">
+                   
+                 <button  class="btn btn-success but"   onclick="toggleModal()"> close</button>
+                 
+                 
+               </div>
+               
+           
+            </div>
+        </div>
+     
+
+
+
+
+
+<!--- modalbootstrap -->
+            <div class="modal fade" id="myModal"  role="dialog">
+                <div class="modal-dialog">
+                    
+                    <!-- Modal content -->
+                    <div class="modal-content" >
+                        <div class="modal-header" >
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title " id="mhead" > </h4>
+                        </div>
+                        <div class="modal-body" id="mbody">
+                            <p> </p>
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+           </body>
+</html>
