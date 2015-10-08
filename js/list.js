@@ -652,9 +652,9 @@ function errorHandler(err) {
          }	
 function getLocation(btn) {
 	   currentbutton = btn;
-	   var g=randomGeo();
-	   showPosition(g);
-	   return;
+	   //var g=randomGeo();
+	   //showPosition(g);
+	   //return;
 	   
     if (navigator.geolocation) {
     	var options = {timeout:60000};
